@@ -16,3 +16,5 @@ Python code library by Daniel Dylewsky. There are a few items that are only avai
 MATLAB versions of these demos are available at https://github.com/dynamicslab/databook_matlab
 
 Please cite this book when using this code/data. 
+
+**Remark:**  Branch **hv** uses holoviews rather than matplotlib
