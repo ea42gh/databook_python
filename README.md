@@ -17,4 +17,4 @@ MATLAB versions of these demos are available at https://github.com/dynamicslab/d
 
 Please cite this book when using this code/data. 
 
-**Remark:**  Branch **hv** uses holoviews rather than matplotlib
+Remark:  Branch hv uses holoviews rather than matplotlib
