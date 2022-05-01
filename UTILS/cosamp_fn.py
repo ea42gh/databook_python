@@ -26,7 +26,7 @@ def cosamp(phi, u, s, epsilon=1e-10, max_iter=1000):
         phiT = phi[:, omega]
         b = np.zeros(phi.shape[1])
         # Solve Least Square
-        b[omega], _, _, _ = np.linalg.lstsq(phiT, u)
+        b[omega], _, _, _ = np.linalg.lstsq(phiT, u, rcond=None )
         
         # Get new estimate
         b[np.argsort(b)[:-s]] = 0
