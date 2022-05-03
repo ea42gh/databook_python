@@ -9,7 +9,6 @@
 *.doc#
 
 Python_Codebase_Notes.txt
-UTILS/*
 auxiliary book code files/*
 */.ipynb_checkpoints/*
 */*/.ipynb_checkpoints/*
